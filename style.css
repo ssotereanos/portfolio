@@ -25,7 +25,7 @@ p {
 }
 img {
 	text-align: center;
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 	width: auto;
 }
@@ -132,15 +132,18 @@ nav:hover ul {
 }
 /*---End Nav --*/
 .left-col {
-	width: 50%;
+	width: 30%;
 	float: left;
+	padding-left:300px;
 	margin: 4% 0 4% 4%;
+
 }
 .sidebar {
 	width: 28%;
 	float: left;
 	margin: 8%;
 }
+
 .one-third-port {
 	width: 29.333333%;
 	padding: 2%;
@@ -196,12 +199,12 @@ footer.second p {
 }
 @media screen and (max-width: 768px) {
 	#menu-icon {
-		margin: 26px 0 0 26px;
+		margin: 20px 0 0 40px;
 	}
 	nav ul, nav:active ul {
 		padding: 8px 0;
 		left: 23px;
-		top: 34px;
+		top: 40px;
 		width: 50%;
 	}
 	.inner {
@@ -226,7 +229,7 @@ footer.second p {
 		margin: 0 auto;
 	}
 	img {
-		padding: 2%;
+		padding: 5%;
 	}
 	.one-third-port {
 		width: 96%;
@@ -236,6 +239,15 @@ footer.second p {
 	.break {
 		display: block;
 	}
+
+	.intro {
+	 width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;        
+    background-size: contain;              
+	}
+
+
 	.parallax {
 		display: none;
 	}
