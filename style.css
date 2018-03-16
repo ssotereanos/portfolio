@@ -225,7 +225,7 @@ footer.second p {
 		font-size: 180%;
 	}
 	p {
-		font-size: 120%;
+		font-size: 80%;
 	}
 	h2 {
 		font-size: 160%;
@@ -236,14 +236,16 @@ footer.second p {
 		padding: 0 2%;
 	}
 	.sidebar {
-		width: 96%;
+		width: 90%;
+		padding-left: 30px
+	
 		margin: 0 auto;
 	}
 	img {
 		padding: 5%;
 	}
 	.one-third-port {
-		width: 96%;
+		width: 50%;
 		margin: 0 auto;
 		padding: 0;
 	}
