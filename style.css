@@ -205,8 +205,19 @@ footer.second p {
 		padding: 8px 0;
 		left: 23px;
 		top: 40px;
-		width: 50%;
+		width: 10%;
 	}
+
+	nav ul li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 70%;
+	width:60px;
+    }
+
+    nav ul li a {
+	color: black;
+	text-decoration: none;
+    }
 	.inner {
 		font-size: 120%;
 	}
